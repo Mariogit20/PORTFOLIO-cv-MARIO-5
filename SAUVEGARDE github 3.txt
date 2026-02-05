@@ -1,0 +1,1660 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github14/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14 (master)
+$ git clone https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git
+Cloning into 'PORTFOLIO-cv-MARIO-5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14 (master)
+$ cd PORTFOLIO-cv-MARIO-5
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5/pull/new/Test
+remote:
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5/pull/new/Dev
+remote:
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git commit -m "Ajout gitignore"
+[Dev 6f386ea] Ajout gitignore
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   e9a0d2c..6f386ea  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git add .
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260205_export_portfo
+lio.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260205_export_users.
+json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/json_transfer.py', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/models.py', LF will be replaced by
+CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/urls.py', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'app_acceuil/views.py', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'templates/index.html', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'templates/page_administration.html', LF will be
+ replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git commit -m first commit"
+> ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git commit -m "first commit"
+[Dev 6272027] first commit
+ 369 files changed, 14462 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Code complet views.py main.html urls.pdf
+ create mode 100644 Code complet views.py main.html urls.py.docx
+ create mode 100644 Compteur de vues par projet.docx
+ create mode 100644 Creer ADMINISTRATEUR PAR DEFAUT.txt
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.pdf
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v3.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.txt
+ create mode 100644 EXEMPLE de Fichiers JSON/20260205_export_portfolio.json
+ create mode 100644 EXEMPLE de Fichiers JSON/20260205_export_users.json
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.docx
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.py.docx
+ create mode 100644 Export Import Fichier JSON sur Portfolio et User.pdf
+ create mode 100644 PASSWORD Administrateur.txt
+ create mode 100644 PYTHON DJANGO Livre2.docx
+ create mode 100644 PYTHON DJANGO Livre2.pdf
+ create mode 100644 PYTHON DJANGO Livre2.txt
+ create mode 100644 PackageUser/__init__.py
+ create mode 100644 PackageUser/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 PackageUser/__pycache__/modul_new_user.cpython-311.pyc
+ create mode 100644 PackageUser/modul_new_user.py
+ create mode 100644 REMARQUE   models.pdf
+ create mode 100644 REMARQUE   models.py.docx
+ create mode 100644 app_acceuil/__init__.py
+ create mode 100644 app_acceuil/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/json_transfer.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_acceuil/admin.py
+ create mode 100644 app_acceuil/apps.py
+ create mode 100644 app_acceuil/json_transfer.py
+ create mode 100644 app_acceuil/migrations/0001_initial.py
+ create mode 100644 app_acceuil/migrations/0002_alter_projetscards_description_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0003_alter_projetscards_images.py
+ create mode 100644 app_acceuil/migrations/0004_projetscards_created_at.py
+ create mode 100644 app_acceuil/migrations/0005_projetsfirstspeciality.py
+ create mode 100644 app_acceuil/migrations/0006_projetmesrealisations.py
+ create mode 100644 app_acceuil/migrations/0007_projetphotodeprofil.py
+ create mode 100644 app_acceuil/migrations/0008_projetaproposdemoi.py
+ create mode 100644 app_acceuil/migrations/0009_mescompetencescles.py
+ create mode 100644 app_acceuil/migrations/0010_mescompetencescles_est_visible_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0011_alter_projetaproposdemoi_options
+.py
+ create mode 100644 app_acceuil/migrations/0012_alter_projetmesrealisations_opti
+ons_and_more.py
+ create mode 100644 app_acceuil/migrations/0013_reseausocial.py
+ create mode 100644 app_acceuil/migrations/0014_alter_mescompetencescles_nom_and
+_more.py
+ create mode 100644 app_acceuil/migrations/0015_alter_reseausocial_nom.py
+ create mode 100644 app_acceuil/migrations/0016_projetmesrealisations_compteur_d
+emo_live.py
+ create mode 100644 app_acceuil/migrations/0017_alter_reseausocial_nom_alter_res
+eausocial_url.py
+ create mode 100644 app_acceuil/migrations/0018_projetscards_fingerprint.py
+ create mode 100644 app_acceuil/migrations/0019_alter_mescompetencescles_options
+_and_more.py
+ create mode 100644 app_acceuil/migrations/0020_alter_projetmesrealisations_imag
+es_and_more.py
+ create mode 100644 app_acceuil/migrations/0021_alter_reseausocial_url.py
+ create mode 100644 app_acceuil/migrations/__init__.py
+ create mode 100644 app_acceuil/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0002_alter_projetscards_d
+escription_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0003_alter_projetscards_i
+mages.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0004_projetscards_created
+_at.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0005_projetsfirstspeciali
+ty.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0006_projetmesrealisation
+s.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0007_projetphotodeprofil.
+cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0008_projetaproposdemoi.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0009_mescompetencescles.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0010_mescompetencescles_e
+st_visible_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0011_alter_projetaproposd
+emoi_options.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0012_alter_projetmesreali
+sations_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0013_reseausocial.cpython
+-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0014_alter_mescompetences
+cles_nom_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0015_alter_reseausocial_n
+om.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0016_projetmesrealisation
+s_compteur_demo_live.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0017_alter_reseausocial_n
+om_alter_reseausocial_url.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0018_projetscards_fingerp
+rint.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0019_alter_mescompetences
+cles_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0020_alter_projetmesreali
+sations_images_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0021_alter_reseausocial_u
+rl.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/models.py
+ create mode 100644 app_acceuil/tests.py
+ create mode 100644 app_acceuil/urls.py
+ create mode 100644 app_acceuil/views.py
+ create mode 100644 app_contact/__init__.py
+ create mode 100644 app_contact/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_contact/admin.py
+ create mode 100644 app_contact/apps.py
+ create mode 100644 app_contact/migrations/0001_initial.py
+ create mode 100644 app_contact/migrations/0002_user.py
+ create mode 100644 app_contact/migrations/0003_alter_user_email.py
+ create mode 100644 app_contact/migrations/0004_user_role.py
+ create mode 100644 app_contact/migrations/0005_role_alter_user_nom_alter_user_p
+assword_and_more.py
+ create mode 100644 app_contact/migrations/0006_table_role_de_user.py
+ create mode 100644 app_contact/migrations/0007_administrateur_role.py
+ create mode 100644 app_contact/migrations/__init__.py
+ create mode 100644 app_contact/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_contact/migrations/__pycache__/0002_user.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0003_alter_user_email.cpy
+thon-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0004_user_role.cpython-31
+1.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0005_role_alter_user_nom_
+alter_user_password_and_more.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0006_table_role_de_user.c
+python-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_administrateur_role.
+cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_setup_role.cpython-3
+11.pyc
+ create mode 100644 app_contact/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/models.py
+ create mode 100644 app_contact/tests.py
+ create mode 100644 app_contact/urls.py
+ create mode 100644 app_contact/views.py
+ create mode 100644 app_user/__init__.py
+ create mode 100644 app_user/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_user/admin.py
+ create mode 100644 app_user/apps.py
+ create mode 100644 app_user/migrations/0001_initial.py
+ create mode 100644 app_user/migrations/0002_setup_menus.py
+ create mode 100644 app_user/migrations/0003_alter_menuacces_user_delete_user.py
+ create mode 100644 app_user/migrations/0004_alter_menu_code_menu_rolemenuacces_
+delete_menuacces.py
+ create mode 100644 app_user/migrations/__init__.py
+ create mode 100644 app_user/migrations/__pycache__/0001_initial.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0002_setup_menus.cpython-311
+.pyc
+ create mode 100644 app_user/migrations/__pycache__/0003_alter_menuacces_user_de
+lete_user.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0004_alter_menu_code_menu_ro
+lemenuacces_delete_menuacces.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/models.py
+ create mode 100644 app_user/templatetags/__init__.py
+ create mode 100644 app_user/templatetags/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/templatetags/__pycache__/admin_extras.cpython-311.p
+yc
+ create mode 100644 app_user/templatetags/admin_extras.py
+ create mode 100644 app_user/tests.py
+ create mode 100644 app_user/urls.py
+ create mode 100644 app_user/views.py
+ create mode 100644 db.sqlite3
+ create mode 100644 manage.py
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER.jpg
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER_wHrL3Bd.jpg
+ create mode 100644 media/static/images/8_1sasa11.jpg
+ create mode 100644 media/static/images/BRUEL.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002_5PkaOYv.jpg
+ create mode 100644 media/static/images/Emma.JPG
+ create mode 100644 media/static/images/Emma_Eming.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_Cz9NFt3.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_EqrRjyg.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_nEfMAZe.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_p18J55N.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_H2tVaek.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_Hm5tl8p.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_oEkkBcu.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_uHsh1Fi.JPG
+ create mode 100644 media/static/images/Emma_Eming_xCpVE2N.JPG
+ create mode 100644 media/static/images/Human_Resource.PNG
+ create mode 100644 media/static/images/Mario.JPG
+ create mode 100644 media/static/images/Mario2capture.JPG
+ create mode 100644 media/static/images/Mario2capture_30hd5ek.JPG
+ create mode 100644 media/static/images/Mario2capture_5alauDu.JPG
+ create mode 100644 media/static/images/Mario2capture_M7bqVOR.JPG
+ create mode 100644 media/static/images/Mario2capture_p3uolZx.JPG
+ create mode 100644 media/static/images/Mario_8T618j0.JPG
+ create mode 100644 media/static/images/Mario_CRnl3b3.JPG
+ create mode 100644 media/static/images/Mario_Pzw6IF0.JPG
+ create mode 100644 media/static/images/Mario_ftE9Lng.JPG
+ create mode 100644 media/static/images/Mario_m85Yp2C.JPG
+ create mode 100644 media/static/images/Mario_oxseEAm.JPG
+ create mode 100644 media/static/images/Mario_photo.jpeg
+ create mode 100644 media/static/images/Mario_photo_7vTY6x7.jpeg
+ create mode 100644 media/static/images/Mario_photo_8Jtrn37.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_JyUDrGn.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_LaqBYLF.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_SIc2NcK.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_WhjwD2p.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz_JuJPCdG.jpeg
+ create mode 100644 media/static/images/Ordinateur.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_aAl6fc7.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_bUT0Hx8.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_gAPvjpw.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_xUem2Ke.png
+ create mode 100644 media/static/images/Ordinateur_GoxH9i4.png
+ create mode 100644 media/static/images/Ordinateur_Htu9DFt.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6_QWSIOdz.png
+ create mode 100644 media/static/images/Ordinateur_oxg2zf2.png
+ create mode 100644 media/static/images/Ordinateur_p2IKbsB.png
+ create mode 100644 media/static/images/arnold_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_LZaj
+6Vo.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_PHVU
+hvn.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_qlSx
+15k.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_saPZ
+LrK.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune2.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_FqE
+XgGg.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_GW7
+CNML.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_Kqj
+HYO5.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_eTv
+NkQQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ_8hC
+DBbX.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp_G1Ir
+UAu.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux1.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_Ud8jtNL.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_qEKsCXp.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_rk632Os.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3_q45riY7.JPG
+ create mode 100644 media/static/images/belle-photo1.jpg
+ create mode 100644 media/static/images/bord_de_terre.png
+ create mode 100644 media/static/images/bruce_fille.JPG
+ create mode 100644 media/static/images/bruce_wilis2.jpg
+ create mode 100644 media/static/images/bruce_wilis2_o1Dv6J2.jpg
+ create mode 100644 media/static/images/bruce_willis.jpg
+ create mode 100644 media/static/images/bruce_willis_0LQALOB.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_2NlM359.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_PCZHn6F.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_fCH62pV.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_rlnTP8D.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_6aXqXa1.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_INGQMNr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_k02lrBl.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_nb1yrIT.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1_0HKdaRy.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm_Wb6SSR9.jpg
+ create mode 100644 media/static/images/bruce_willis_fille.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_HeTwnpf.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_QnMyGFX.JPG
+ create mode 100644 media/static/images/bruce_willis_rWC1ABA.jpg
+ create mode 100644 media/static/images/bruce_willis_wa6o3su.jpg
+ create mode 100644 media/static/images/camion-benne.jpg
+ create mode 100644 media/static/images/camion-benne_PVp49b8.jpg
+ create mode 100644 media/static/images/camion-benne_y8XGHsb.jpg
+ create mode 100644 media/static/images/camion-benne_yMZfF9s.jpg
+ create mode 100644 media/static/images/camion_fourgon.JPG
+ create mode 100644 media/static/images/camion_fourgon_1ycer49.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3_bSseyL5.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3_jcHI5Iu.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_6EesheK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_B8EKMlK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_solk9Yp.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_xXeAINK.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_6bsIanX.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_9DFz6Jo.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_JnYpxXM.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_KOMeZbs.JPG
+ create mode 100644 media/static/images/camion_fourgon_NXeOyK6.JPG
+ create mode 100644 media/static/images/camion_fourgon_TUkmnjC.JPG
+ create mode 100644 media/static/images/camion_fourgon_UQ4ICY4.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw_h9V6fwB.JPG
+ create mode 100644 media/static/images/camion_fourgon_gp2J3H7.JPG
+ create mode 100644 media/static/images/camion_fourgon_wAW86JC.JPG
+ create mode 100644 media/static/images/camion_frigorifique.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_OvRsGQC.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_RccH3zQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_SwGtrBw.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_eXaImc0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_FnoO8xh.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Xst5tq0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_T3Jyb0F.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_YKxqcV6.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_cgUh34E.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_fLyCeCq.jpg
+ create mode 100644 media/static/images/camion_frigorifique_sgxcXbd.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc_7qv94rG.jpg
+ create mode 100644 media/static/images/camion_plateau.jpg
+ create mode 100644 media/static/images/camion_tautliner.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY_FwDWvfk.JPG
+ create mode 100644 media/static/images/camion_tautliner_9Q0mXkE.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_9YuNV0V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_Cx4Agk4.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_eGVZyZn.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_jhCypoE.JPG
+ create mode 100644 media/static/images/camion_tautliner_IoTyPAI.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_2Mh1pjs.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_7H76lPy.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_8QeJIxl.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_xm4MGIu.JPG
+ create mode 100644 media/static/images/camion_tautliner_nmcUysA.JPG
+ create mode 100644 media/static/images/chicago.jpg
+ create mode 100644 media/static/images/imageORDINATEUR.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_7GTpHOA.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_LQOC8E6.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_C0n40da.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_NfmnG89.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_QH4bYsl.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_rEXvp2O.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_VPh4B20.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fhQHvDz.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fq8J9Q3.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_lxZ3tum.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_sOyFFVP.jpg
+ create mode 100644 media/static/images/image_Terre.jpg
+ create mode 100644 media/static/images/image_face_2.jpg
+ create mode 100644 media/static/images/miracast_dongle_hdmi.jpg
+ create mode 100644 media/static/images/samuel.jpg
+ create mode 100644 portfolio/__init__.py
+ create mode 100644 portfolio/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-312.pyc
+ create mode 100644 portfolio/asgi.py
+ create mode 100644 portfolio/settings.py
+ create mode 100644 portfolio/urls.py
+ create mode 100644 portfolio/wsgi.py
+ create mode 100644 requirements.txt
+ create mode 100644 static/images_stockees/camion-benne.JPG
+ create mode 100644 static/images_stockees/camion-citerne.JPG
+ create mode 100644 static/images_stockees/camion-routier.JPG
+ create mode 100644 static/images_stockees/camion_fourgon.JPG
+ create mode 100644 static/images_stockees/camion_frigorifique.JPG
+ create mode 100644 static/images_stockees/camion_plateau.JPG
+ create mode 100644 static/images_stockees/camion_porte-char.JPG
+ create mode 100644 static/images_stockees/camion_semi-remorque.JPG
+ create mode 100644 static/images_stockees/camion_tautliner.JPG
+ create mode 100644 static/images_stockees/image_Terre.jpg
+ create mode 100644 static/images_stockees/img_lights_wide.jpg
+ create mode 100644 static/images_stockees/img_mountains_wide.jpg
+ create mode 100644 static/images_stockees/img_snow_wide.jpg
+ create mode 100644 templates/TransportRoutier_Main.html
+ create mode 100644 templates/diapo_Javascript_Page1.html
+ create mode 100644 templates/email_Javascript.htm
+ create mode 100644 templates/index.html
+ create mode 100644 templates/layouts/footer.html
+ create mode 100644 templates/layouts/header.html
+ create mode 100644 templates/layouts/main.html
+ create mode 100644 templates/login.html
+ create mode 100644 templates/page_administration.html
+ create mode 100644 templates/page_inscription.html
+ create mode 100644 templates/page_utilisateur.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git push
+Enumerating objects: 228, done.
+Counting objects: 100% (228/228), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (221/221), done.
+Writing objects: 100% (227/227), 10.22 MiB | 16.96 MiB/s, done.
+Total 227 (delta 48), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git status
+git log --oneline --decorate -5
+git ls-remote --heads origin
+On branch Dev
+Your branch is ahead of 'origin/Dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+6272027 (HEAD -> Dev) first commit
+6f386ea (origin/Dev) Ajout gitignore
+e9a0d2c (origin/main, origin/Test, origin/HEAD, main, Test) Initial commit
+6f386ea29eda49a44718b1a4011e80b4053832cf        refs/heads/Dev
+e9a0d2c86adb2cacab065f4372b4b65dbb27425d        refs/heads/Test
+e9a0d2c86adb2cacab065f4372b4b65dbb27425d        refs/heads/main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git config --global http.version HTTP/1.1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+git push origin Dev
+Enumerating objects: 228, done.
+Counting objects: 100% (228/228), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (221/221), done.
+Writing objects: 100% (227/227), 10.22 MiB | 17.55 MiB/s, done.
+Total 227 (delta 48), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git remote -v
+git remote set-url origin git@github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+git remote -v
+origin  https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git (fetch)
+origin  https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-5.git (push)
+origin  git@github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git (fetch)
+origin  git@github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ls -al ~/.ssh
+total 25
+drwxr-xr-x 1 AzureAD+SPSSE02MEN 4096  0 Feb  5 17:05 ./
+drwxr-xr-x 1 AzureAD+SPSSE02MEN 4096  0 Feb  5 17:05 ../
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 92 Feb  5 17:05 known_hosts
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ssh-keygen -t ed25519 -C "mariomariochatgpt@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/SPSSE02MEN/.ssh/id_ed25519):
+Enter passphrase for "/c/Users/SPSSE02MEN/.ssh/id_ed25519" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/SPSSE02MEN/.ssh/id_ed25519
+Your public key has been saved in /c/Users/SPSSE02MEN/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:oo4auiy33neZEFo2vRbCMwGbQAIKFPQpoxSxEanAi1c mariomariochatgpt@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|OXB ..           |
+|++=.Eo.          |
+|==.+o. o         |
+|=.+   X o        |
+|..   +.*So       |
+|    ....o        |
+|.   .  o o       |
+|+..+  . +        |
+|=*+.o. .         |
++----[SHA256]-----+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+Agent pid 1739
+Identity added: /c/Users/SPSSE02MEN/.ssh/id_ed25519 (mariomariochatgpt@gmail.com)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF7ge6YRqm17nZiegajmEaro2o5aP2Qr7+zWVS+K9fQl mariomariochatgpt@gmail.com
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ ssh -T git@github.com
+git push -u origin Dev
+Hi Mariogit20! You've successfully authenticated, but GitHub does not provide shell access.
+Enumerating objects: 228, done.
+Counting objects: 100% (228/228), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (221/221), done.
+Writing objects: 100% (227/227), 10.22 MiB | 35.00 KiB/s, done.
+Total 227 (delta 48), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (48/48), done.
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   6f386ea..6272027  Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git status
+git log --oneline --decorate -5
+git ls-remote --heads origin
+On branch Dev
+Your branch is up to date with 'origin/Dev'.
+
+nothing to commit, working tree clean
+6272027 (HEAD -> Dev, origin/Dev) first commit
+6f386ea Ajout gitignore
+e9a0d2c (origin/main, origin/Test, origin/HEAD, main, Test) Initial commit
+6272027f2991231c13ca419988741f322a2c37d9        refs/heads/Dev
+e9a0d2c86adb2cacab065f4372b4b65dbb27425d        refs/heads/Test
+e9a0d2c86adb2cacab065f4372b4b65dbb27425d        refs/heads/main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git checkout Dev
+git push -u origin Dev
+Already on 'Dev'
+Your branch is up to date with 'origin/Dev'.
+branch 'Dev' set up to track 'origin/Dev'.
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git checkout main
+git pull origin main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 888 bytes | 18.00 KiB/s, done.
+From github.com:Mariogit20/PORTFOLIO-cv-MARIO-5
+ * branch            main       -> FETCH_HEAD
+   e9a0d2c..9946b49  main       -> origin/main
+Updating e9a0d2c..9946b49
+Fast-forward
+ .gitignore                                         |    2 +
+ .vscode/settings.json                              |    3 +
+ Code complet views.py main.html urls.pdf           |  Bin 0 -> 373853 bytes
+ Code complet views.py main.html urls.py.docx       |  Bin 0 -> 60602 bytes
+ Compteur de vues par projet.docx                   |  Bin 0 -> 15458 bytes
+ Creer ADMINISTRATEUR PAR DEFAUT.txt                |   16 +
+ ...EES INITIAL Fichier de migration v2 ACTUEL.docx |  Bin 0 -> 57801 bytes
+ ...NEES INITIAL Fichier de migration v2 ACTUEL.pdf |  Bin 0 -> 408597 bytes
+ ...DE DONNEES INITIAL Fichier de migration v2.docx |  Bin 0 -> 57547 bytes
+ ...DE DONNEES INITIAL Fichier de migration v3.docx |  Bin 0 -> 148655 bytes
+ ...ER DE DONNEES INITIAL Fichier de migration.docx |  Bin 0 -> 21259 bytes
+ ...IER DE DONNEES INITIAL Fichier de migration.txt |   93 +
+ .../20260205_export_portfolio.json                 |  176 ++
+ .../20260205_export_users.json                     |   95 +
+ ...e MENUS CREES avec le FICHIER DE MIGRATION.docx |  Bin 0 -> 417288 bytes
+ ...de MENUS CREES avec le FICHIER DE MIGRATION.pdf |  Bin 0 -> 174970 bytes
+ ...r JSON sur Portfolio User in modul_new_user.pdf |  Bin 0 -> 1835299 bytes
+ ...ON sur Portfolio User in modul_new_user.py.docx |  Bin 0 -> 497387 bytes
+ ...t Import Fichier JSON sur Portfolio et User.pdf |  Bin 0 -> 2054918 bytes
+ PASSWORD Administrateur.txt                        |    9 +
+ PYTHON DJANGO Livre2.docx                          |  Bin 0 -> 30384 bytes
+ PYTHON DJANGO Livre2.pdf                           |  Bin 0 -> 238881 bytes
+ PYTHON DJANGO Livre2.txt                           |    7 +
+ PackageUser/__init__.py                            |    0
+ PackageUser/__pycache__/__init__.cpython-311.pyc   |  Bin 0 -> 172 bytes
+ .../__pycache__/modul_new_user.cpython-311.pyc     |  Bin 0 -> 10928 bytes
+ PackageUser/modul_new_user.py                      |  254 +++
+ REMARQUE   models.pdf                              |  Bin 0 -> 274918 bytes
+ REMARQUE   models.py.docx                          |  Bin 0 -> 35864 bytes
+ app_acceuil/__init__.py                            |    0
+ app_acceuil/__pycache__/__init__.cpython-311.pyc   |  Bin 0 -> 172 bytes
+ app_acceuil/__pycache__/admin.cpython-311.pyc      |  Bin 0 -> 3797 bytes
+ app_acceuil/__pycache__/apps.cpython-311.pyc       |  Bin 0 -> 552 bytes
+ .../__pycache__/json_transfer.cpython-311.pyc      |  Bin 0 -> 22687 bytes
+ app_acceuil/__pycache__/models.cpython-311.pyc     |  Bin 0 -> 11555 bytes
+ app_acceuil/__pycache__/urls.cpython-311.pyc       |  Bin 0 -> 2558 bytes
+ app_acceuil/__pycache__/views.cpython-311.pyc      |  Bin 0 -> 18774 bytes
+ app_acceuil/admin.py                               |   80 +
+ app_acceuil/apps.py                                |    6 +
+ app_acceuil/json_transfer.py                       |  497 +++++
+ app_acceuil/migrations/0001_initial.py             |   23 +
+ ...0002_alter_projetscards_description_and_more.py |   28 +
+ .../migrations/0003_alter_projetscards_images.py   |   18 +
+ .../migrations/0004_projetscards_created_at.py     |   18 +
+ .../migrations/0005_projetsfirstspeciality.py      |   22 +
+ .../migrations/0006_projetmesrealisations.py       |   23 +
+ app_acceuil/migrations/0007_projetphotodeprofil.py |   21 +
+ app_acceuil/migrations/0008_projetaproposdemoi.py  |   21 +
+ app_acceuil/migrations/0009_mescompetencescles.py  |   26 +
+ ...0010_mescompetencescles_est_visible_and_more.py |   48 +
+ .../0011_alter_projetaproposdemoi_options.py       |   17 +
+ ...alter_projetmesrealisations_options_and_more.py |   29 +
+ app_acceuil/migrations/0013_reseausocial.py        |   26 +
+ .../0014_alter_mescompetencescles_nom_and_more.py  |   68 +
+ .../migrations/0015_alter_reseausocial_nom.py      |   18 +
+ ...016_projetmesrealisations_compteur_demo_live.py |   18 +
+ ...lter_reseausocial_nom_alter_reseausocial_url.py |   23 +
+ .../migrations/0018_projetscards_fingerprint.py    |   18 +
+ ...19_alter_mescompetencescles_options_and_more.py |   76 +
+ ..._alter_projetmesrealisations_images_and_more.py |   38 +
+ .../migrations/0021_alter_reseausocial_url.py      |   18 +
+ app_acceuil/migrations/__init__.py                 |    0
+ .../__pycache__/0001_initial.cpython-311.pyc       |  Bin 0 -> 1134 bytes
+ ...ojetscards_description_and_more.cpython-311.pyc |  Bin 0 -> 1210 bytes
+ .../0003_alter_projetscards_images.cpython-311.pyc |  Bin 0 -> 898 bytes
+ .../0004_projetscards_created_at.cpython-311.pyc   |  Bin 0 -> 861 bytes
+ .../0005_projetsfirstspeciality.cpython-311.pyc    |  Bin 0 -> 1267 bytes
+ .../0006_projetmesrealisations.cpython-311.pyc     |  Bin 0 -> 1367 bytes
+ .../0007_projetphotodeprofil.cpython-311.pyc       |  Bin 0 -> 1147 bytes
+ .../0008_projetaproposdemoi.cpython-311.pyc        |  Bin 0 -> 1115 bytes
+ .../0009_mescompetencescles.cpython-311.pyc        |  Bin 0 -> 1386 bytes
+ ...tencescles_est_visible_and_more.cpython-311.pyc |  Bin 0 -> 1922 bytes
+ ...lter_projetaproposdemoi_options.cpython-311.pyc |  Bin 0 -> 858 bytes
+ ...esrealisations_options_and_more.cpython-311.pyc |  Bin 0 -> 1376 bytes
+ .../__pycache__/0013_reseausocial.cpython-311.pyc  |  Bin 0 -> 1430 bytes
+ ...mescompetencescles_nom_and_more.cpython-311.pyc |  Bin 0 -> 2347 bytes
+ .../0015_alter_reseausocial_nom.cpython-311.pyc    |  Bin 0 -> 1033 bytes
+ ...realisations_compteur_demo_live.cpython-311.pyc |  Bin 0 -> 928 bytes
+ ...cial_nom_alter_reseausocial_url.cpython-311.pyc |  Bin 0 -> 1295 bytes
+ .../0018_projetscards_fingerprint.cpython-311.pyc  |  Bin 0 -> 927 bytes
+ ...ompetencescles_options_and_more.cpython-311.pyc |  Bin 0 -> 2736 bytes
+ ...mesrealisations_images_and_more.cpython-311.pyc |  Bin 0 -> 1572 bytes
+ .../0021_alter_reseausocial_url.cpython-311.pyc    |  Bin 0 -> 889 bytes
+ .../__pycache__/__init__.cpython-311.pyc           |  Bin 0 -> 183 bytes
+ app_acceuil/models.py                              |  170 ++
+ app_acceuil/tests.py                               |    3 +
+ app_acceuil/urls.py                                |   42 +
+ app_acceuil/views.py                               |  359 ++++
+ app_contact/__init__.py                            |    0
+ app_contact/__pycache__/__init__.cpython-311.pyc   |  Bin 0 -> 172 bytes
+ app_contact/__pycache__/admin.cpython-311.pyc      |  Bin 0 -> 227 bytes
+ app_contact/__pycache__/apps.cpython-311.pyc       |  Bin 0 -> 552 bytes
+ app_contact/__pycache__/models.cpython-311.pyc     |  Bin 0 -> 3052 bytes
+ app_contact/__pycache__/urls.cpython-311.pyc       |  Bin 0 -> 629 bytes
+ app_contact/__pycache__/views.cpython-311.pyc      |  Bin 0 -> 5877 bytes
+ app_contact/admin.py                               |    3 +
+ app_contact/apps.py                                |    6 +
+ app_contact/migrations/0001_initial.py             |   24 +
+ app_contact/migrations/0002_user.py                |   22 +
+ app_contact/migrations/0003_alter_user_email.py    |   18 +
+ app_contact/migrations/0004_user_role.py           |   18 +
+ ..._alter_user_nom_alter_user_password_and_more.py |   36 +
+ app_contact/migrations/0006_table_role_de_user.py  |   35 +
+ app_contact/migrations/0007_administrateur_role.py |   69 +
+ app_contact/migrations/__init__.py                 |    0
+ .../__pycache__/0001_initial.cpython-311.pyc       |  Bin 0 -> 1203 bytes
+ .../__pycache__/0002_user.cpython-311.pyc          |  Bin 0 -> 1112 bytes
+ .../0003_alter_user_email.cpython-311.pyc          |  Bin 0 -> 824 bytes
+ .../__pycache__/0004_user_role.cpython-311.pyc     |  Bin 0 -> 957 bytes
+ ...om_alter_user_password_and_more.cpython-311.pyc |  Bin 0 -> 1679 bytes
+ .../0006_table_role_de_user.cpython-311.pyc        |  Bin 0 -> 1265 bytes
+ .../0007_administrateur_role.cpython-311.pyc       |  Bin 0 -> 1633 bytes
+ .../__pycache__/0007_setup_role.cpython-311.pyc    |  Bin 0 -> 1267 bytes
+ .../__pycache__/__init__.cpython-311.pyc           |  Bin 0 -> 183 bytes
+ app_contact/models.py                              |  306 +++
+ app_contact/tests.py                               |    3 +
+ app_contact/urls.py                                |   18 +
+ app_contact/views.py                               |  141 ++
+ app_user/__init__.py                               |    0
+ app_user/__pycache__/__init__.cpython-311.pyc      |  Bin 0 -> 169 bytes
+ app_user/__pycache__/admin.cpython-311.pyc         |  Bin 0 -> 224 bytes
+ app_user/__pycache__/apps.cpython-311.pyc          |  Bin 0 -> 543 bytes
+ app_user/__pycache__/models.cpython-311.pyc        |  Bin 0 -> 3552 bytes
+ app_user/__pycache__/urls.cpython-311.pyc          |  Bin 0 -> 1650 bytes
+ app_user/__pycache__/views.cpython-311.pyc         |  Bin 0 -> 4332 bytes
+ app_user/admin.py                                  |    3 +
+ app_user/apps.py                                   |    6 +
+ app_user/migrations/0001_initial.py                |   44 +
+ app_user/migrations/0002_setup_menus.py            |   24 +
+ .../0003_alter_menuacces_user_delete_user.py       |   23 +
+ ...enu_code_menu_rolemenuacces_delete_menuacces.py |   35 +
+ app_user/migrations/__init__.py                    |    0
+ .../__pycache__/0001_initial.cpython-311.pyc       |  Bin 0 -> 2122 bytes
+ .../__pycache__/0002_setup_menus.cpython-311.pyc   |  Bin 0 -> 1212 bytes
+ ...lter_menuacces_user_delete_user.cpython-311.pyc |  Bin 0 -> 1116 bytes
+ ..._rolemenuacces_delete_menuacces.cpython-311.pyc |  Bin 0 -> 1829 bytes
+ .../__pycache__/__init__.cpython-311.pyc           |  Bin 0 -> 180 bytes
+ app_user/models.py                                 |  113 ++
+ app_user/templatetags/__init__.py                  |    0
+ .../__pycache__/__init__.cpython-311.pyc           |  Bin 0 -> 182 bytes
+ .../__pycache__/admin_extras.cpython-311.pyc       |  Bin 0 -> 1145 bytes
+ app_user/templatetags/admin_extras.py              |   23 +
+ app_user/tests.py                                  |    3 +
+ app_user/urls.py                                   |   50 +
+ app_user/views.py                                  |  117 ++
+ db.sqlite3                                         |  Bin 0 -> 221184 bytes
+ manage.py                                          |   22 +
+ media/static/images/00_PLAGE_ARBRE_MER.jpg         |  Bin 0 -> 129826 bytes
+ media/static/images/00_PLAGE_ARBRE_MER_wHrL3Bd.jpg |  Bin 0 -> 129826 bytes
+ media/static/images/8_1sasa11.jpg                  |  Bin 0 -> 907144 bytes
+ media/static/images/BRUEL.jpg                      |  Bin 0 -> 11797 bytes
+ media/static/images/BRUEL_Patrick-24x30-2002.jpg   |  Bin 0 -> 11797 bytes
+ .../images/BRUEL_Patrick-24x30-2002_5PkaOYv.jpg    |  Bin 0 -> 11797 bytes
+ media/static/images/Emma.JPG                       |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming.JPG                 |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_2JnSttV.JPG         |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_2JnSttV_Cz9NFt3.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_2JnSttV_EqrRjyg.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_2JnSttV_nEfMAZe.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_2JnSttV_p18J55N.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_eZi6JBR.JPG         |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_eZi6JBR_H2tVaek.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_eZi6JBR_Hm5tl8p.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_eZi6JBR_oEkkBcu.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_eZi6JBR_uHsh1Fi.JPG |  Bin 0 -> 9702 bytes
+ media/static/images/Emma_Eming_xCpVE2N.JPG         |  Bin 0 -> 9702 bytes
+ media/static/images/Human_Resource.PNG             |  Bin 0 -> 1055 bytes
+ media/static/images/Mario.JPG                      |  Bin 0 -> 8006 bytes
+ media/static/images/Mario2capture.JPG              |  Bin 0 -> 7098 bytes
+ media/static/images/Mario2capture_30hd5ek.JPG      |  Bin 0 -> 7098 bytes
+ media/static/images/Mario2capture_5alauDu.JPG      |  Bin 0 -> 7098 bytes
+ media/static/images/Mario2capture_M7bqVOR.JPG      |  Bin 0 -> 7098 bytes
+ media/static/images/Mario2capture_p3uolZx.JPG      |  Bin 0 -> 7098 bytes
+ media/static/images/Mario_8T618j0.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_CRnl3b3.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_Pzw6IF0.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_ftE9Lng.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_m85Yp2C.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_oxseEAm.JPG              |  Bin 0 -> 8006 bytes
+ media/static/images/Mario_photo.jpeg               |  Bin 0 -> 594925 bytes
+ media/static/images/Mario_photo_7vTY6x7.jpeg       |  Bin 0 -> 594925 bytes
+ media/static/images/Mario_photo_8Jtrn37.jpeg       |  Bin 0 -> 594925 bytes
+ media/static/images/Mario_photo_WStw9jc.jpeg       |  Bin 0 -> 594925 bytes
+ .../static/images/Mario_photo_WStw9jc_JyUDrGn.jpeg |  Bin 0 -> 594925 bytes
+ .../static/images/Mario_photo_WStw9jc_LaqBYLF.jpeg |  Bin 0 -> 594925 bytes
+ .../static/images/Mario_photo_WStw9jc_SIc2NcK.jpeg |  Bin 0 -> 594925 bytes
+ .../static/images/Mario_photo_WStw9jc_WhjwD2p.jpeg |  Bin 0 -> 594925 bytes
+ media/static/images/Mario_photo_pETfkqz.jpeg       |  Bin 0 -> 594925 bytes
+ .../static/images/Mario_photo_pETfkqz_JuJPCdG.jpeg |  Bin 0 -> 594925 bytes
+ media/static/images/Ordinateur.png                 |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_DllCGqg.png         |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_DllCGqg_aAl6fc7.png |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_DllCGqg_bUT0Hx8.png |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_DllCGqg_gAPvjpw.png |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_DllCGqg_xUem2Ke.png |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_GoxH9i4.png         |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_Htu9DFt.png         |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_cL3nUx6.png         |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_cL3nUx6_QWSIOdz.png |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_oxg2zf2.png         |  Bin 0 -> 71980 bytes
+ media/static/images/Ordinateur_p2IKbsB.png         |  Bin 0 -> 71980 bytes
+ media/static/images/arnold_adult.jpg               |  Bin 0 -> 19005 bytes
+ .../static/images/arnold_schwarzenegger_adult.jpg  |  Bin 0 -> 19005 bytes
+ .../images/arnold_schwarzenegger_adult_AbfFNgz.jpg |  Bin 0 -> 19005 bytes
+ ...arnold_schwarzenegger_adult_AbfFNgz_LZaj6Vo.jpg |  Bin 0 -> 19005 bytes
+ ...arnold_schwarzenegger_adult_AbfFNgz_PHVUhvn.jpg |  Bin 0 -> 19005 bytes
+ ...arnold_schwarzenegger_adult_AbfFNgz_qlSx15k.jpg |  Bin 0 -> 19005 bytes
+ ...arnold_schwarzenegger_adult_AbfFNgz_saPZLrK.jpg |  Bin 0 -> 19005 bytes
+ .../static/images/arnold_schwarzenegger_jeune.jpg  |  Bin 0 -> 28956 bytes
+ .../static/images/arnold_schwarzenegger_jeune2.jpg |  Bin 0 -> 39129 bytes
+ .../static/images/arnold_schwarzenegger_jeune4.jpg |  Bin 0 -> 32652 bytes
+ .../arnold_schwarzenegger_jeune4_51Ki4CD.jpg       |  Bin 0 -> 32652 bytes
+ ...rnold_schwarzenegger_jeune4_51Ki4CD_FqEXgGg.jpg |  Bin 0 -> 32652 bytes
+ ...rnold_schwarzenegger_jeune4_51Ki4CD_GW7CNML.jpg |  Bin 0 -> 32652 bytes
+ ...rnold_schwarzenegger_jeune4_51Ki4CD_KqjHYO5.jpg |  Bin 0 -> 32652 bytes
+ ...rnold_schwarzenegger_jeune4_51Ki4CD_eTvNkQQ.jpg |  Bin 0 -> 32652 bytes
+ .../arnold_schwarzenegger_jeune4_Uxwp2WQ.jpg       |  Bin 0 -> 32652 bytes
+ ...rnold_schwarzenegger_jeune4_Uxwp2WQ_8hCDBbX.jpg |  Bin 0 -> 32652 bytes
+ .../images/arnold_schwarzenegger_jeune_eTm4wZp.jpg |  Bin 0 -> 28956 bytes
+ ...arnold_schwarzenegger_jeune_eTm4wZp_G1IrUAu.jpg |  Bin 0 -> 28956 bytes
+ .../static/images/arnold_schwarzenegger_vieux1.JPG |  Bin 0 -> 27752 bytes
+ .../static/images/arnold_schwarzenegger_vieux2.JPG |  Bin 0 -> 20422 bytes
+ .../arnold_schwarzenegger_vieux2_Ud8jtNL.JPG       |  Bin 0 -> 20422 bytes
+ .../arnold_schwarzenegger_vieux2_qEKsCXp.JPG       |  Bin 0 -> 20422 bytes
+ .../arnold_schwarzenegger_vieux2_rk632Os.JPG       |  Bin 0 -> 20422 bytes
+ .../static/images/arnold_schwarzenegger_vieux3.JPG |  Bin 0 -> 41189 bytes
+ .../arnold_schwarzenegger_vieux3_q45riY7.JPG       |  Bin 0 -> 41189 bytes
+ media/static/images/belle-photo1.jpg               |  Bin 0 -> 100757 bytes
+ media/static/images/bord_de_terre.png              |  Bin 0 -> 2259140 bytes
+ media/static/images/bruce_fille.JPG                |  Bin 0 -> 9416 bytes
+ media/static/images/bruce_wilis2.jpg               |  Bin 0 -> 6831 bytes
+ media/static/images/bruce_wilis2_o1Dv6J2.jpg       |  Bin 0 -> 6831 bytes
+ media/static/images/bruce_willis.jpg               |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_0LQALOB.jpg       |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_0dfOCTL.jpg       |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_0dfOCTL_VPa30gl.jpg |  Bin 0 -> 2918 bytes
+ .../bruce_willis_0dfOCTL_VPa30gl_2NlM359.jpg       |  Bin 0 -> 2918 bytes
+ .../bruce_willis_0dfOCTL_VPa30gl_PCZHn6F.jpg       |  Bin 0 -> 2918 bytes
+ .../bruce_willis_0dfOCTL_VPa30gl_fCH62pV.jpg       |  Bin 0 -> 2918 bytes
+ .../bruce_willis_0dfOCTL_VPa30gl_rlnTP8D.jpg       |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_3xGtmnr.jpg       |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_3xGtmnr_6aXqXa1.jpg |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_3xGtmnr_INGQMNr.jpg |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_3xGtmnr_k02lrBl.jpg |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_3xGtmnr_nb1yrIT.jpg |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_4G9qDC1.jpg       |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_4G9qDC1_0HKdaRy.jpg |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_JDibJlm.jpg       |  Bin 0 -> 2918 bytes
+ .../static/images/bruce_willis_JDibJlm_Wb6SSR9.jpg |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_fille.JPG         |  Bin 0 -> 9416 bytes
+ media/static/images/bruce_willis_fille_HeTwnpf.JPG |  Bin 0 -> 9416 bytes
+ media/static/images/bruce_willis_fille_QnMyGFX.JPG |  Bin 0 -> 9416 bytes
+ media/static/images/bruce_willis_rWC1ABA.jpg       |  Bin 0 -> 2918 bytes
+ media/static/images/bruce_willis_wa6o3su.jpg       |  Bin 0 -> 2918 bytes
+ media/static/images/camion-benne.jpg               |  Bin 0 -> 69735 bytes
+ media/static/images/camion-benne_PVp49b8.jpg       |  Bin 0 -> 69735 bytes
+ media/static/images/camion-benne_y8XGHsb.jpg       |  Bin 0 -> 69735 bytes
+ media/static/images/camion-benne_yMZfF9s.jpg       |  Bin 0 -> 69735 bytes
+ media/static/images/camion_fourgon.JPG             |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_1ycer49.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_35mzdS3.JPG     |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_35mzdS3_bSseyL5.JPG      |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_61UuOL3.JPG     |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_61UuOL3_jcHI5Iu.JPG      |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_9kYLU4U.JPG     |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_9kYLU4U_6EesheK.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_9kYLU4U_B8EKMlK.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_9kYLU4U_solk9Yp.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_9kYLU4U_xXeAINK.JPG      |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_H3nZpHf.JPG     |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_H3nZpHf_6bsIanX.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_H3nZpHf_9DFz6Jo.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_H3nZpHf_JnYpxXM.JPG      |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_H3nZpHf_KOMeZbs.JPG      |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_NXeOyK6.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_TUkmnjC.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_UQ4ICY4.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_c5upgUw.JPG     |  Bin 0 -> 28552 bytes
+ .../images/camion_fourgon_c5upgUw_h9V6fwB.JPG      |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_gp2J3H7.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_fourgon_wAW86JC.JPG     |  Bin 0 -> 28552 bytes
+ media/static/images/camion_frigorifique.jpg        |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_EHgNhYQ.jpg  |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_EHgNhYQ_OvRsGQC.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_EHgNhYQ_RccH3zQ.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_EHgNhYQ_SwGtrBw.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_EHgNhYQ_eXaImc0.jpg |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_FnoO8xh.jpg  |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_Xst5tq0.jpg  |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_e1vryvc.jpg  |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_e1vryvc_T3Jyb0F.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_e1vryvc_YKxqcV6.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_e1vryvc_cgUh34E.jpg |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_e1vryvc_fLyCeCq.jpg |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_sgxcXbd.jpg  |  Bin 0 -> 45248 bytes
+ .../static/images/camion_frigorifique_y0gWHwc.jpg  |  Bin 0 -> 45248 bytes
+ .../images/camion_frigorifique_y0gWHwc_7qv94rG.jpg |  Bin 0 -> 45248 bytes
+ media/static/images/camion_plateau.jpg             |  Bin 0 -> 58463 bytes
+ media/static/images/camion_tautliner.JPG           |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_0PtibQY.JPG   |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_0PtibQY_FwDWvfk.JPG    |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_9Q0mXkE.JPG   |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_C06ip2V.JPG   |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_C06ip2V_9YuNV0V.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_C06ip2V_Cx4Agk4.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_C06ip2V_eGVZyZn.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_C06ip2V_jhCypoE.JPG    |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_IoTyPAI.JPG   |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_P7cjSoC.JPG   |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_P7cjSoC_2Mh1pjs.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_P7cjSoC_7H76lPy.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_P7cjSoC_8QeJIxl.JPG    |  Bin 0 -> 34844 bytes
+ .../images/camion_tautliner_P7cjSoC_xm4MGIu.JPG    |  Bin 0 -> 34844 bytes
+ media/static/images/camion_tautliner_nmcUysA.JPG   |  Bin 0 -> 34844 bytes
+ media/static/images/chicago.jpg                    |  Bin 0 -> 27964 bytes
+ media/static/images/imageORDINATEUR.jpg            |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_7GTpHOA.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_LQOC8E6.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_Nj3yHnH.jpg    |  Bin 0 -> 29571 bytes
+ .../images/imageORDINATEUR_Nj3yHnH_C0n40da.jpg     |  Bin 0 -> 29571 bytes
+ .../images/imageORDINATEUR_Nj3yHnH_NfmnG89.jpg     |  Bin 0 -> 29571 bytes
+ .../images/imageORDINATEUR_Nj3yHnH_QH4bYsl.jpg     |  Bin 0 -> 29571 bytes
+ .../images/imageORDINATEUR_Nj3yHnH_rEXvp2O.jpg     |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_VPh4B20.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_fhQHvDz.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_fq8J9Q3.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_lxZ3tum.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/imageORDINATEUR_sOyFFVP.jpg    |  Bin 0 -> 29571 bytes
+ media/static/images/image_Terre.jpg                |  Bin 0 -> 31259 bytes
+ media/static/images/image_face_2.jpg               |  Bin 0 -> 31259 bytes
+ media/static/images/miracast_dongle_hdmi.jpg       |  Bin 0 -> 7677 bytes
+ media/static/images/samuel.jpg                     |  Bin 0 -> 4505 bytes
+ portfolio/__init__.py                              |    0
+ portfolio/__pycache__/__init__.cpython-311.pyc     |  Bin 0 -> 170 bytes
+ portfolio/__pycache__/__init__.cpython-312.pyc     |  Bin 0 -> 158 bytes
+ portfolio/__pycache__/settings.cpython-311.pyc     |  Bin 0 -> 2888 bytes
+ portfolio/__pycache__/settings.cpython-312.pyc     |  Bin 0 -> 2499 bytes
+ portfolio/__pycache__/urls.cpython-311.pyc         |  Bin 0 -> 1744 bytes
+ portfolio/__pycache__/urls.cpython-312.pyc         |  Bin 0 -> 1027 bytes
+ portfolio/__pycache__/wsgi.cpython-311.pyc         |  Bin 0 -> 696 bytes
+ portfolio/__pycache__/wsgi.cpython-312.pyc         |  Bin 0 -> 650 bytes
+ portfolio/asgi.py                                  |   16 +
+ portfolio/settings.py                              |  156 ++
+ portfolio/urls.py                                  |   45 +
+ portfolio/wsgi.py                                  |   16 +
+ requirements.txt                                   |  Bin 0 -> 356 bytes
+ static/images_stockees/camion-benne.JPG            |  Bin 0 -> 69735 bytes
+ static/images_stockees/camion-citerne.JPG          |  Bin 0 -> 41903 bytes
+ static/images_stockees/camion-routier.JPG          |  Bin 0 -> 107933 bytes
+ static/images_stockees/camion_fourgon.JPG          |  Bin 0 -> 28552 bytes
+ static/images_stockees/camion_frigorifique.JPG     |  Bin 0 -> 45248 bytes
+ static/images_stockees/camion_plateau.JPG          |  Bin 0 -> 58463 bytes
+ static/images_stockees/camion_porte-char.JPG       |  Bin 0 -> 60285 bytes
+ static/images_stockees/camion_semi-remorque.JPG    |  Bin 0 -> 37737 bytes
+ static/images_stockees/camion_tautliner.JPG        |  Bin 0 -> 34844 bytes
+ static/images_stockees/image_Terre.jpg             |  Bin 0 -> 31259 bytes
+ static/images_stockees/img_lights_wide.jpg         |  Bin 0 -> 21057 bytes
+ static/images_stockees/img_mountains_wide.jpg      |  Bin 0 -> 60405 bytes
+ static/images_stockees/img_snow_wide.jpg           |  Bin 0 -> 33260 bytes
+ templates/TransportRoutier_Main.html               | 1816 +++++++++++++++++
+ templates/diapo_Javascript_Page1.html              | 1145 +++++++++++
+ templates/email_Javascript.htm                     | 1131 +++++++++++
+ templates/index.html                               | 2111 ++++++++++++++++++++
+ templates/layouts/footer.html                      |    4 +
+ templates/layouts/header.html                      |  571 ++++++
+ templates/layouts/main.html                        | 2074 +++++++++++++++++++
+ templates/login.html                               |   37 +
+ templates/page_administration.html                 | 1247 ++++++++++++
+ templates/page_inscription.html                    |  217 ++
+ templates/page_utilisateur.html                    |  307 +++
+ 370 files changed, 14464 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Code complet views.py main.html urls.pdf
+ create mode 100644 Code complet views.py main.html urls.py.docx
+ create mode 100644 Compteur de vues par projet.docx
+ create mode 100644 Creer ADMINISTRATEUR PAR DEFAUT.txt
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.pdf
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v3.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.txt
+ create mode 100644 EXEMPLE de Fichiers JSON/20260205_export_portfolio.json
+ create mode 100644 EXEMPLE de Fichiers JSON/20260205_export_users.json
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.docx
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.py.docx
+ create mode 100644 Export Import Fichier JSON sur Portfolio et User.pdf
+ create mode 100644 PASSWORD Administrateur.txt
+ create mode 100644 PYTHON DJANGO Livre2.docx
+ create mode 100644 PYTHON DJANGO Livre2.pdf
+ create mode 100644 PYTHON DJANGO Livre2.txt
+ create mode 100644 PackageUser/__init__.py
+ create mode 100644 PackageUser/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 PackageUser/__pycache__/modul_new_user.cpython-311.pyc
+ create mode 100644 PackageUser/modul_new_user.py
+ create mode 100644 REMARQUE   models.pdf
+ create mode 100644 REMARQUE   models.py.docx
+ create mode 100644 app_acceuil/__init__.py
+ create mode 100644 app_acceuil/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/json_transfer.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_acceuil/admin.py
+ create mode 100644 app_acceuil/apps.py
+ create mode 100644 app_acceuil/json_transfer.py
+ create mode 100644 app_acceuil/migrations/0001_initial.py
+ create mode 100644 app_acceuil/migrations/0002_alter_projetscards_description_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0003_alter_projetscards_images.py
+ create mode 100644 app_acceuil/migrations/0004_projetscards_created_at.py
+ create mode 100644 app_acceuil/migrations/0005_projetsfirstspeciality.py
+ create mode 100644 app_acceuil/migrations/0006_projetmesrealisations.py
+ create mode 100644 app_acceuil/migrations/0007_projetphotodeprofil.py
+ create mode 100644 app_acceuil/migrations/0008_projetaproposdemoi.py
+ create mode 100644 app_acceuil/migrations/0009_mescompetencescles.py
+ create mode 100644 app_acceuil/migrations/0010_mescompetencescles_est_visible_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0011_alter_projetaproposdemoi_options
+.py
+ create mode 100644 app_acceuil/migrations/0012_alter_projetmesrealisations_opti
+ons_and_more.py
+ create mode 100644 app_acceuil/migrations/0013_reseausocial.py
+ create mode 100644 app_acceuil/migrations/0014_alter_mescompetencescles_nom_and
+_more.py
+ create mode 100644 app_acceuil/migrations/0015_alter_reseausocial_nom.py
+ create mode 100644 app_acceuil/migrations/0016_projetmesrealisations_compteur_d
+emo_live.py
+ create mode 100644 app_acceuil/migrations/0017_alter_reseausocial_nom_alter_res
+eausocial_url.py
+ create mode 100644 app_acceuil/migrations/0018_projetscards_fingerprint.py
+ create mode 100644 app_acceuil/migrations/0019_alter_mescompetencescles_options
+_and_more.py
+ create mode 100644 app_acceuil/migrations/0020_alter_projetmesrealisations_imag
+es_and_more.py
+ create mode 100644 app_acceuil/migrations/0021_alter_reseausocial_url.py
+ create mode 100644 app_acceuil/migrations/__init__.py
+ create mode 100644 app_acceuil/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0002_alter_projetscards_d
+escription_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0003_alter_projetscards_i
+mages.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0004_projetscards_created
+_at.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0005_projetsfirstspeciali
+ty.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0006_projetmesrealisation
+s.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0007_projetphotodeprofil.
+cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0008_projetaproposdemoi.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0009_mescompetencescles.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0010_mescompetencescles_e
+st_visible_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0011_alter_projetaproposd
+emoi_options.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0012_alter_projetmesreali
+sations_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0013_reseausocial.cpython
+-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0014_alter_mescompetences
+cles_nom_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0015_alter_reseausocial_n
+om.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0016_projetmesrealisation
+s_compteur_demo_live.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0017_alter_reseausocial_n
+om_alter_reseausocial_url.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0018_projetscards_fingerp
+rint.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0019_alter_mescompetences
+cles_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0020_alter_projetmesreali
+sations_images_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0021_alter_reseausocial_u
+rl.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/models.py
+ create mode 100644 app_acceuil/tests.py
+ create mode 100644 app_acceuil/urls.py
+ create mode 100644 app_acceuil/views.py
+ create mode 100644 app_contact/__init__.py
+ create mode 100644 app_contact/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_contact/admin.py
+ create mode 100644 app_contact/apps.py
+ create mode 100644 app_contact/migrations/0001_initial.py
+ create mode 100644 app_contact/migrations/0002_user.py
+ create mode 100644 app_contact/migrations/0003_alter_user_email.py
+ create mode 100644 app_contact/migrations/0004_user_role.py
+ create mode 100644 app_contact/migrations/0005_role_alter_user_nom_alter_user_p
+assword_and_more.py
+ create mode 100644 app_contact/migrations/0006_table_role_de_user.py
+ create mode 100644 app_contact/migrations/0007_administrateur_role.py
+ create mode 100644 app_contact/migrations/__init__.py
+ create mode 100644 app_contact/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_contact/migrations/__pycache__/0002_user.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0003_alter_user_email.cpy
+thon-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0004_user_role.cpython-31
+1.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0005_role_alter_user_nom_
+alter_user_password_and_more.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0006_table_role_de_user.c
+python-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_administrateur_role.
+cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_setup_role.cpython-3
+11.pyc
+ create mode 100644 app_contact/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/models.py
+ create mode 100644 app_contact/tests.py
+ create mode 100644 app_contact/urls.py
+ create mode 100644 app_contact/views.py
+ create mode 100644 app_user/__init__.py
+ create mode 100644 app_user/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_user/admin.py
+ create mode 100644 app_user/apps.py
+ create mode 100644 app_user/migrations/0001_initial.py
+ create mode 100644 app_user/migrations/0002_setup_menus.py
+ create mode 100644 app_user/migrations/0003_alter_menuacces_user_delete_user.py
+ create mode 100644 app_user/migrations/0004_alter_menu_code_menu_rolemenuacces_
+delete_menuacces.py
+ create mode 100644 app_user/migrations/__init__.py
+ create mode 100644 app_user/migrations/__pycache__/0001_initial.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0002_setup_menus.cpython-311
+.pyc
+ create mode 100644 app_user/migrations/__pycache__/0003_alter_menuacces_user_de
+lete_user.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0004_alter_menu_code_menu_ro
+lemenuacces_delete_menuacces.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/models.py
+ create mode 100644 app_user/templatetags/__init__.py
+ create mode 100644 app_user/templatetags/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/templatetags/__pycache__/admin_extras.cpython-311.p
+yc
+ create mode 100644 app_user/templatetags/admin_extras.py
+ create mode 100644 app_user/tests.py
+ create mode 100644 app_user/urls.py
+ create mode 100644 app_user/views.py
+ create mode 100644 db.sqlite3
+ create mode 100644 manage.py
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER.jpg
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER_wHrL3Bd.jpg
+ create mode 100644 media/static/images/8_1sasa11.jpg
+ create mode 100644 media/static/images/BRUEL.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002_5PkaOYv.jpg
+ create mode 100644 media/static/images/Emma.JPG
+ create mode 100644 media/static/images/Emma_Eming.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_Cz9NFt3.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_EqrRjyg.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_nEfMAZe.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_p18J55N.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_H2tVaek.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_Hm5tl8p.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_oEkkBcu.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_uHsh1Fi.JPG
+ create mode 100644 media/static/images/Emma_Eming_xCpVE2N.JPG
+ create mode 100644 media/static/images/Human_Resource.PNG
+ create mode 100644 media/static/images/Mario.JPG
+ create mode 100644 media/static/images/Mario2capture.JPG
+ create mode 100644 media/static/images/Mario2capture_30hd5ek.JPG
+ create mode 100644 media/static/images/Mario2capture_5alauDu.JPG
+ create mode 100644 media/static/images/Mario2capture_M7bqVOR.JPG
+ create mode 100644 media/static/images/Mario2capture_p3uolZx.JPG
+ create mode 100644 media/static/images/Mario_8T618j0.JPG
+ create mode 100644 media/static/images/Mario_CRnl3b3.JPG
+ create mode 100644 media/static/images/Mario_Pzw6IF0.JPG
+ create mode 100644 media/static/images/Mario_ftE9Lng.JPG
+ create mode 100644 media/static/images/Mario_m85Yp2C.JPG
+ create mode 100644 media/static/images/Mario_oxseEAm.JPG
+ create mode 100644 media/static/images/Mario_photo.jpeg
+ create mode 100644 media/static/images/Mario_photo_7vTY6x7.jpeg
+ create mode 100644 media/static/images/Mario_photo_8Jtrn37.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_JyUDrGn.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_LaqBYLF.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_SIc2NcK.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_WhjwD2p.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz_JuJPCdG.jpeg
+ create mode 100644 media/static/images/Ordinateur.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_aAl6fc7.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_bUT0Hx8.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_gAPvjpw.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_xUem2Ke.png
+ create mode 100644 media/static/images/Ordinateur_GoxH9i4.png
+ create mode 100644 media/static/images/Ordinateur_Htu9DFt.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6_QWSIOdz.png
+ create mode 100644 media/static/images/Ordinateur_oxg2zf2.png
+ create mode 100644 media/static/images/Ordinateur_p2IKbsB.png
+ create mode 100644 media/static/images/arnold_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_LZaj
+6Vo.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_PHVU
+hvn.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_qlSx
+15k.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_saPZ
+LrK.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune2.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_FqE
+XgGg.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_GW7
+CNML.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_Kqj
+HYO5.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_eTv
+NkQQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ_8hC
+DBbX.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp_G1Ir
+UAu.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux1.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_Ud8jtNL.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_qEKsCXp.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_rk632Os.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3_q45riY7.JPG
+ create mode 100644 media/static/images/belle-photo1.jpg
+ create mode 100644 media/static/images/bord_de_terre.png
+ create mode 100644 media/static/images/bruce_fille.JPG
+ create mode 100644 media/static/images/bruce_wilis2.jpg
+ create mode 100644 media/static/images/bruce_wilis2_o1Dv6J2.jpg
+ create mode 100644 media/static/images/bruce_willis.jpg
+ create mode 100644 media/static/images/bruce_willis_0LQALOB.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_2NlM359.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_PCZHn6F.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_fCH62pV.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_rlnTP8D.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_6aXqXa1.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_INGQMNr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_k02lrBl.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_nb1yrIT.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1_0HKdaRy.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm_Wb6SSR9.jpg
+ create mode 100644 media/static/images/bruce_willis_fille.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_HeTwnpf.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_QnMyGFX.JPG
+ create mode 100644 media/static/images/bruce_willis_rWC1ABA.jpg
+ create mode 100644 media/static/images/bruce_willis_wa6o3su.jpg
+ create mode 100644 media/static/images/camion-benne.jpg
+ create mode 100644 media/static/images/camion-benne_PVp49b8.jpg
+ create mode 100644 media/static/images/camion-benne_y8XGHsb.jpg
+ create mode 100644 media/static/images/camion-benne_yMZfF9s.jpg
+ create mode 100644 media/static/images/camion_fourgon.JPG
+ create mode 100644 media/static/images/camion_fourgon_1ycer49.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3_bSseyL5.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3_jcHI5Iu.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_6EesheK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_B8EKMlK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_solk9Yp.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_xXeAINK.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_6bsIanX.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_9DFz6Jo.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_JnYpxXM.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_KOMeZbs.JPG
+ create mode 100644 media/static/images/camion_fourgon_NXeOyK6.JPG
+ create mode 100644 media/static/images/camion_fourgon_TUkmnjC.JPG
+ create mode 100644 media/static/images/camion_fourgon_UQ4ICY4.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw_h9V6fwB.JPG
+ create mode 100644 media/static/images/camion_fourgon_gp2J3H7.JPG
+ create mode 100644 media/static/images/camion_fourgon_wAW86JC.JPG
+ create mode 100644 media/static/images/camion_frigorifique.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_OvRsGQC.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_RccH3zQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_SwGtrBw.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_eXaImc0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_FnoO8xh.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Xst5tq0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_T3Jyb0F.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_YKxqcV6.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_cgUh34E.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_fLyCeCq.jpg
+ create mode 100644 media/static/images/camion_frigorifique_sgxcXbd.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc_7qv94rG.jpg
+ create mode 100644 media/static/images/camion_plateau.jpg
+ create mode 100644 media/static/images/camion_tautliner.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY_FwDWvfk.JPG
+ create mode 100644 media/static/images/camion_tautliner_9Q0mXkE.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_9YuNV0V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_Cx4Agk4.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_eGVZyZn.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_jhCypoE.JPG
+ create mode 100644 media/static/images/camion_tautliner_IoTyPAI.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_2Mh1pjs.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_7H76lPy.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_8QeJIxl.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_xm4MGIu.JPG
+ create mode 100644 media/static/images/camion_tautliner_nmcUysA.JPG
+ create mode 100644 media/static/images/chicago.jpg
+ create mode 100644 media/static/images/imageORDINATEUR.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_7GTpHOA.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_LQOC8E6.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_C0n40da.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_NfmnG89.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_QH4bYsl.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_rEXvp2O.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_VPh4B20.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fhQHvDz.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fq8J9Q3.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_lxZ3tum.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_sOyFFVP.jpg
+ create mode 100644 media/static/images/image_Terre.jpg
+ create mode 100644 media/static/images/image_face_2.jpg
+ create mode 100644 media/static/images/miracast_dongle_hdmi.jpg
+ create mode 100644 media/static/images/samuel.jpg
+ create mode 100644 portfolio/__init__.py
+ create mode 100644 portfolio/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-312.pyc
+ create mode 100644 portfolio/asgi.py
+ create mode 100644 portfolio/settings.py
+ create mode 100644 portfolio/urls.py
+ create mode 100644 portfolio/wsgi.py
+ create mode 100644 requirements.txt
+ create mode 100644 static/images_stockees/camion-benne.JPG
+ create mode 100644 static/images_stockees/camion-citerne.JPG
+ create mode 100644 static/images_stockees/camion-routier.JPG
+ create mode 100644 static/images_stockees/camion_fourgon.JPG
+ create mode 100644 static/images_stockees/camion_frigorifique.JPG
+ create mode 100644 static/images_stockees/camion_plateau.JPG
+ create mode 100644 static/images_stockees/camion_porte-char.JPG
+ create mode 100644 static/images_stockees/camion_semi-remorque.JPG
+ create mode 100644 static/images_stockees/camion_tautliner.JPG
+ create mode 100644 static/images_stockees/image_Terre.jpg
+ create mode 100644 static/images_stockees/img_lights_wide.jpg
+ create mode 100644 static/images_stockees/img_mountains_wide.jpg
+ create mode 100644 static/images_stockees/img_snow_wide.jpg
+ create mode 100644 templates/TransportRoutier_Main.html
+ create mode 100644 templates/diapo_Javascript_Page1.html
+ create mode 100644 templates/email_Javascript.htm
+ create mode 100644 templates/index.html
+ create mode 100644 templates/layouts/footer.html
+ create mode 100644 templates/layouts/header.html
+ create mode 100644 templates/layouts/main.html
+ create mode 100644 templates/login.html
+ create mode 100644 templates/page_administration.html
+ create mode 100644 templates/page_inscription.html
+ create mode 100644 templates/page_utilisateur.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git log --oneline --decorate -5
+git status
+9946b49 (HEAD -> main, origin/main, origin/HEAD) Merge pull request #1 from Mari
+ogit20/Dev
+6272027 (origin/Dev, Dev) first commit
+6f386ea Ajout gitignore
+e9a0d2c (origin/Test, Test) Initial commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git checkout Dev
+git merge main
+git push
+Switched to branch 'Dev'
+Your branch is up to date with 'origin/Dev'.
+Updating 6272027..9946b49
+Fast-forward
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   6272027..9946b49  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git branch -vv
+git log --oneline --decorate -3
+* Dev  9946b49 [origin/Dev] Merge pull request #1 from Mariogit20/Dev
+  Test e9a0d2c [origin/Test] Initial commit
+  main 9946b49 [origin/main] Merge pull request #1 from Mariogit20/Dev
+9946b49 (HEAD -> Dev, origin/main, origin/HEAD, origin/Dev, main) Merge pull req
+uest #1 from Mariogit20/Dev
+6272027 first commit
+6f386ea Ajout gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git commit -m "autre commit"
+[Dev ed6eafd] autre commit
+ 1 file changed, 1546 insertions(+)
+ create mode 100644 SAUVEGARDE github.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 12.65 KiB | 2.11 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   9946b49..ed6eafd  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git merge Dev
+Updating 9946b49..ed6eafd
+Fast-forward
+ SAUVEGARDE github.txt | 1546 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1546 insertions(+)
+ create mode 100644 SAUVEGARDE github.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   9946b49..ed6eafd  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git branch -vv
+git log --oneline --decorate -3
+  Dev  ed6eafd [origin/Dev] autre commit
+  Test e9a0d2c [origin/Test] Initial commit
+* main ed6eafd [origin/main] autre commit
+ed6eafd (HEAD -> main, origin/main, origin/HEAD, origin/Dev, Dev) autre commit
+9946b49 Merge pull request #1 from Mariogit20/Dev
+6272027 first commit
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git commit -m "ajout commit"
+[main c2da831] ajout commit
+ 3 files changed, 1596 insertions(+)
+ create mode 100644 SAUVEGARDE github 2.docx
+ create mode 100644 SAUVEGARDE github 2.pdf
+ create mode 100644 SAUVEGARDE github 2.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 782.69 KiB | 1.53 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   ed6eafd..c2da831  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (main)
+$ git checkout Dev
+Switched to branch 'Dev'
+Your branch is up to date with 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git merge main
+Updating ed6eafd..c2da831
+Fast-forward
+ SAUVEGARDE github 2.docx |  Bin 0 -> 104900 bytes
+ SAUVEGARDE github 2.pdf  |  Bin 0 -> 803919 bytes
+ SAUVEGARDE github 2.txt  | 1596 ++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 1596 insertions(+)
+ create mode 100644 SAUVEGARDE github 2.docx
+ create mode 100644 SAUVEGARDE github 2.pdf
+ create mode 100644 SAUVEGARDE github 2.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-5.git
+   ed6eafd..c2da831  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$ git branch -vv
+git log --oneline --decorate -5
+* Dev  c2da831 [origin/Dev] ajout commit
+  Test e9a0d2c [origin/Test] Initial commit
+  main c2da831 [origin/main] ajout commit
+c2da831 (HEAD -> Dev, origin/main, origin/HEAD, origin/Dev, main) ajout commit
+ed6eafd autre commit
+9946b49 Merge pull request #1 from Mariogit20/Dev
+6272027 first commit
+6f386ea Ajout gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github14/PORTFOLIO-cv-MARIO-5 (Dev)
+$
