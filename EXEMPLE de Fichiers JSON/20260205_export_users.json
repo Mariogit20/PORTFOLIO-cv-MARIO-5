@@ -1,0 +1,95 @@
+{
+  "export_type": "users",
+  "exported_at": "2026-02-05T09:12:33.048961",
+  "version": 2,
+  "notes": [
+    "User.password est exporté tel quel (hash).",
+    "Les ForeignKey sont exportées en identifiants (ex: role=1)."
+  ],
+  "data": {
+    "app_contact.Role": [
+      {
+        "__model__": "app_contact.Role",
+        "id": 1,
+        "nom_role": "administrateur"
+      },
+      {
+        "__model__": "app_contact.Role",
+        "id": 2,
+        "nom_role": "moderateur"
+      },
+      {
+        "__model__": "app_contact.Role",
+        "id": 3,
+        "nom_role": "utilisateur"
+      },
+      {
+        "__model__": "app_contact.Role",
+        "id": 4,
+        "nom_role": "responsable de saisie"
+      }
+    ],
+    "app_contact.User": [
+      {
+        "__model__": "app_contact.User",
+        "id": 1,
+        "nom": "Administrateur Système",
+        "email": "admin@exemple.com",
+        "password": "pbkdf2_sha256$1000000$RIA0mWvBOi21s7DtEOu8Nm$p/vHxL/3+tvnWR10No/nK+iLnRaurrnGLJ27BWMU110=",
+        "role": 1
+      },
+      {
+        "__model__": "app_contact.User",
+        "id": 2,
+        "nom": "ANDRIARISOA Jerry Lala d'Assisé",
+        "email": "jerry@yahoo.fr",
+        "password": "pbkdf2_sha256$1000000$UxRVXNm18pWs1Y5iKNRmWV$0T1qmhVLp9vh8JrbXsI03/Lx2UzPaK8a2CjW7klt/Vg=",
+        "role": 2
+      },
+      {
+        "__model__": "app_contact.User",
+        "id": 3,
+        "nom": "ANDRIARISOA Sacha Lala d'Assisé",
+        "email": "sacha@hotmail.com",
+        "password": "pbkdf2_sha256$1000000$xd84dh8WAHDCMl8isGjh2Q$xrtoJMSICXmznGK5/pP3upsskQw96ouEL7G2WnKcFJs=",
+        "role": 3
+      },
+      {
+        "__model__": "app_contact.User",
+        "id": 4,
+        "nom": "Jean De Dieu",
+        "email": "jean@gmail.fr",
+        "password": "pbkdf2_sha256$1000000$crJeYuE3qXAMqBNrXu1c7O$5d1DKK6lCDT3ufUAfy6ikSBIA8xEN4EhFXx0vkuJqtA=",
+        "role": 4
+      }
+    ],
+    "app_contact.Contact": [],
+    "app_user.Menu": [
+      {
+        "__model__": "app_user.Menu",
+        "id": 1,
+        "nom": "Ventes",
+        "code_menu": "menu_ventes"
+      },
+      {
+        "__model__": "app_user.Menu",
+        "id": 2,
+        "nom": "Stocks",
+        "code_menu": "menu_stocks"
+      },
+      {
+        "__model__": "app_user.Menu",
+        "id": 3,
+        "nom": "Factures",
+        "code_menu": "menu_factures"
+      },
+      {
+        "__model__": "app_user.Menu",
+        "id": 4,
+        "nom": "Rapports",
+        "code_menu": "menu_rapports"
+      }
+    ],
+    "app_user.RoleMenuAcces": []
+  }
+}
